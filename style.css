@@ -12,7 +12,7 @@ h4 {
 }
 .last {
   font-family: "Montserrat", sans-serif;
-  color: blue;
+  color: white;
 }
 img {
   border-radius: 10px;
@@ -79,6 +79,7 @@ img {
   margin-right: 2%;
   margin-bottom: 1%;
   padding: 0.5%;
-  display: grid;
-  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
