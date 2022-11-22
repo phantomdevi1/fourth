@@ -9,6 +9,14 @@
       name="description"
       content="На данной странице, вы можете увидеть различие между разным расположением блоков через css."
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
     <link
@@ -17,10 +25,11 @@
     />
   </head>
   <body>
-    <h1>Property display</h1>
+    <h1 class="zagl">Property display</h1>
     <!--inline-->
-    <h2>Display: inline</h2>
+    <h2 class="hinline">Display: inline</h2>
     <div class="inline">
+      <div class="blocknumtwo">
       <div class="inline kvadrat__1">
         <img
           src="https://c4.wallpaperflare.com/wallpaper/926/738/491/silver-hair-red-eyes-long-hair-original-characters-wallpaper-preview.jpg"
@@ -50,9 +59,11 @@
         />
       </div>
     </div>
+  </div>
     <!--block-->
-    <h2>Display: block</h2>
+    <h2 class="hblock">Display: block</h2>
     <div class="block">
+       <div class="blocknumtwo">
       <div class="block kvadrat__1">
         <img
           src="https://c4.wallpaperflare.com/wallpaper/926/738/491/silver-hair-red-eyes-long-hair-original-characters-wallpaper-preview.jpg"
@@ -82,9 +93,11 @@
         />
       </div>
     </div>
+  </div>
     <!--inline-block-->
-    <h2>Display: inline-block</h2>
+    <h2 class="hinblock">Display: inline-block</h2>
     <div class="inline-blockk">
+      <div class="blocknumtwo">
       <div class="inline-block kvadrat__1">
         <img
           src="https://c4.wallpaperflare.com/wallpaper/926/738/491/silver-hair-red-eyes-long-hair-original-characters-wallpaper-preview.jpg"
@@ -114,9 +127,11 @@
         />
       </div>
     </div>
+  </div>
     <!--flex-->
     <h2 class="flex last">Display: flex</h2>
     <div class="flex">
+      <div class="blocknumtwo">
       <div class="flex kvadrat__1">
         <img
           src="https://c4.wallpaperflare.com/wallpaper/926/738/491/silver-hair-red-eyes-long-hair-original-characters-wallpaper-preview.jpg"
@@ -146,6 +161,7 @@
         />
       </div>
     </div>
+  </div>
     <h2 class="flex last">Display: flex left</h2>
     <div class="flex-left">
       <div class="flex-left kvadrat__1">
@@ -208,5 +224,22 @@
         />
       </div>
     </div>
+    <p class="first__lorem">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolore
+      voluptatibus esse, exercitationem rerum, iusto beatae voluptates
+      laudantium, voluptas sint dicta cupiditate saepe ullam quam consequatur
+      expedita quos aliquid repellat!
+    </p>
+    <p class="second__lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi
+      cupiditate ab accusamus mollitia. Nam corrupti at numquam consequatur
+      harum, blanditiis, optio aliquam magnam aperiam a impedit dicta rem. Iste!
+    </p>
+    <p class="third__lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae et
+      voluptas assumenda deleniti omnis. Libero possimus in voluptatem animi
+      reiciendis a voluptatibus dolorem ipsa ut eius reprehenderit at,
+      consequuntur accusantium.
+    </p>
   </body>
 </html>

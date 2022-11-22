@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: local("Montserrat-SemiBold"),
+    url("fonts/Montserrat-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"), url("fonts/Montserrat-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
 body {
-  background: repeat-y;
+  background: fixed;
   background-size: 1920px 1080px;
   background-image: url(https://i.artfile.ru/1920x1080_1174585_[www.ArtFile.ru].jpg);
 }
@@ -7,8 +23,23 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Montserrat", sans-serif;
   color: darkviolet;
+}
+.zagl {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.hinline {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.hblock {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.hinblock {
+  font-family: "Montserrat";
+  font-weight: 400;
 }
 .last {
   font-family: "Montserrat", sans-serif;
@@ -17,32 +48,39 @@ h4 {
 img {
   border-radius: 10px;
 }
-
+.blocknumtwo {
+  width: 1920px;
+  position: relative;
+}
 .kvadrat__1 {
   border: 3px;
   border-radius: 10px;
   display: flex;
+  position: relative;
 
   margin-right: 1%;
 }
 .kvadrat__2 {
   border: 0px;
   border-radius: 10px;
-  display: flex;
+  position: relative;
+  top: 150px;
 
   margin-right: 1%;
 }
 .kvadrat__3 {
   border: 0px;
   border-radius: 10px;
-  display: flex;
+  position: absolute;
+  left: 50px;
 
   margin-right: 1%;
 }
 .kvadrat__4 {
   border: 0px;
   border-radius: 10px;
-  display: flex;
+  position: fixed;
+  bottom: 50px;
 }
 .inline {
   display: inline;
@@ -82,4 +120,24 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.first__lorem {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  color: blanchedalmond;
+  margin-left: 3%;
+}
+.second__lorem {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  color: blanchedalmond;
+  margin-left: 3%;
+}
+.third__lorem {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: blanchedalmond;
+  margin-left: 3%;
 }
